@@ -1,0 +1,170 @@
+{
+  "name": "Kala",
+  "brand": "Laxmi Poornakala Mittacola",
+  "profileImage": "assets/headshot3.jpg",
+  "resume": "assets/resume.pdf",
+  "location": "Chicago, IL",
+  "aboutShort": "CS Master's student focused on AI, Cloud & Full-stack Engineering.",
+  "aboutDetail": "I'm a Computer Science student who's always been fascinated by how ideas turn into innovation through code. What started as simple curiosity about how things work has grown into a passion for building smart, reliable, and meaningful technology. I've worked across different domains - from developing enterprise solutions to exploring data and cloud ecosystems - and what drives me most is solving real-world problems with creativity and precision. I love connecting logic with design, data with purpose, and technology with human impact. I believe learning never really stops - every new project, challenge, or line of code is a chance to grow, collaborate, and create something better than before.",
+  "aboutList": [
+    "Strong fundamentals in Python, Java, and React",
+    "Hands-on with AWS, GCP, Azure, Data Science & RPA tools",
+    "Research & projects in healthcare AI."
+  ],
+  "skills": {
+    "Programming Languages": ["Python", "Java", "C", "R", "JavaScript", "SQL"],
+    "Markup/Stylesheet": ["HTML", "CSS", "XML", "XSL"],
+    "Cloud Platforms": ["Azure", "GCP", "Oracle Cloud", "AWS"],
+    "RPA Software": ["Automation Anywhere", "Blue Prism"],
+    "IDE Tools": ["VS Code", "Eclipse IDE", "Pycharm", "Android Studio", "RStudio"],
+    "Databases": ["MySQL", "MongoDB"]
+  },
+  "projects": [
+    {
+      "title": "Balancing Diets",
+      "objective": "The platform combines interactive visualizations, AI-driven recommendations, and user-friendly dashboards to make nutrition tracking intuitive and actionable.",
+      "bulletPoints": [
+        "Responsive web app for personalized diet tracking and meal planning.",
+        "AI-powered recommendations and nutrient deficiency detection.",
+        "Interactive dashboards with calorie and macronutrient visualizations.",
+        "Searchable food database for logging meals.",
+        "Chatbot for quick nutrition guidance."
+      ],
+      "tech": "Python, React, Flutter, AWS, FastAPI, TensorFlow, LangChain",
+      "github": "https://github.com/LaxmiPoornakala/Balancing-Diets"
+    },
+    {
+      "title": "GitHub Issues Analysis & Semantic Search",
+      "objective": "Demonstrating GitHub API integration, data visualization, Dockerized Elasticsearch embeddings, and semantic search with OpenAI.",
+      "bulletPoints": [
+        "Imported and analyzed GitHub issues using Python & Jupyter Notebooks.",
+        "Visualized issue trends by phase and status.",
+        "Built and published Docker images with Elasticsearch and embeddings.",
+        "Performed semantic search using OpenAI embeddings for topic-specific queries."
+      ],
+      "tech": "Python, GitHub API, OpenAI API, Docker, Elasticsearch, Matplotlib",
+      "github": "https://github.com/LaxmiPoornakala/GitHub-Issues-Analysis-and-Semantic-Search-with-Docker-and-Elasticsearch"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Programmer Analyst Trainee",
+      "company": "Cognizant Technology Solutions",
+      "location": "India",
+      "duration": "August - September 2022",
+      "details": [
+        "Completed structured training in Java, Spring, and Maven, focusing on backend development and enterprise application frameworks.",
+        "Developed and tested Java-based applications using Spring Boot, working on mini-projects that reinforced real-world software development practices. ",
+        "Gained hands-on experience with RESTful API development, debugging, and automation with Maven, improving application efficiency. "
+      ],
+      "logo": "assets/cognizant.png"
+    },
+    {
+      "role": "Data Science Intern",
+      "company": "Avishkar Tech Solutions",
+      "location": "Hyderabad",
+      "duration": "June - July 2021",
+      "details": [
+        "Assisted a team in preprocessing data and refining machine learning models, leading to a 30% improvement in prediction accuracy.  ",
+        "Performed exploratory data analysis on five datasets, identifying key insights that contributed to three strategic business recommendations.",
+        "Assisted in deploying ML models on cloud platforms, gaining experience with automation and performance monitoring. ",
+        "Designed 10+ effective data visualizations that enhanced in analysis and informed decision-making, resulting in increased actionable insights. "
+      ],
+      "logo": "assets/avishkar.jpeg"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Azure (AZ-400) Designing and Implementing Microsoft DevOps Solutions",
+      "organization": "Microsoft",
+      "url": "https://www.credly.com/badges/7a40453a-b3c1-4815-bd32-e1111a80ca52",
+      "logo": "assets/az.png"
+    },
+    {
+      "name": "Architecting with Google Compute Engine",
+      "organization": "Google Cloud",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/K8JJ34XLP4KE",
+      "logo": "assets/gc.png"
+    },
+    {
+      "name": "Modern Application Development with Python on AWS",
+      "organization": "Amazon Web Services",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/TWRPJPCCKWYY",
+      "logo": "assets/aws.png"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Architect Associate",
+      "organization": "Oracle",
+      "url": "assets/oracle.png",
+      "logo": "assets/oracle.png"
+    },
+    {
+      "name": "IBM Data Science",
+      "organization": "IBM",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/JS4PF34YFDUE",
+      "logo": "assets/ibm.png"
+    },
+    {
+      "name": "ACE Multi Cloud Networking Associate",
+      "organization": "Aviatrix",
+      "url": "https://www.credly.com/badges/535f9631-2fdd-4ab5-9f07-d21432cc6a3c",
+      "logo": "assets/ACE.png"
+    },
+    {
+      "name": "Deep Learning",
+      "organization": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/6TK3254P3E9T",
+      "logo": "assets/dl.png"
+    },
+    {
+      "name": "DeepLearning.AI TensorFlow Developer",
+      "organization": "DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/C3EFDAYWTU5G",
+      "logo": "assets/dl.png"
+    },
+    {
+      "name": "Building Cloud Computing Solutions at Scale",
+      "organization": "Duke University",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/HPTM7SLB5W6C",
+      "logo": "assets/duke.png"
+    },
+    {
+      "name": "Statistics with Python",
+      "organization": "University Of Michigan",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/DM5V3F2NPZXQ",
+      "logo": "assets/uom.png"
+    },
+    {
+      "name": "Full-Stack Web Development with React",
+      "organization": "The Hong Kong University of Science and Technology",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/63R3FKZC3YKM",
+      "logo": "assets/hku.png"
+    },    
+    {
+      "name": "Social Entrepreneurship",
+      "organization": "Copenhagen Business School",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/2GDYCYEULATK",
+      "logo": "assets/cbs.png"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's in Computer Science",
+      "institute": "Illinois Institute of Technology, Chicago",
+      "duration": "2024 - 2025",
+      "logo": "assets/iit.jpeg"
+    },
+    {
+      "degree": "Bachelor of Technology in Computer Science specialized in AI & Intelligent Process Automation",
+      "institute": "KL University, Vijayawada, India",
+      "duration": "2019 - 2023",
+      "logo": "assets/klu.jpeg"
+    }
+  ],
+  "socials": [
+    {"platform":"LinkedIn","url":"https://www.linkedin.com/in/laxmi-poornakala-mittacola/","icon":"linkedin"},
+    {"platform":"GitHub","url":"https://github.com/LaxmiPoornakala","icon":"github"},
+    {"platform":"Credly","url":"https://www.credly.com/users/laxmi-poornakala-mittacola/badges#credly","icon":"https://cdn.simpleicons.org/credly/EEC5A0"}
+  ],
+  "contactEmail": "mlpoornakala@gmail.com"
+}
