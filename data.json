@@ -75,6 +75,20 @@
       ],
       "tech": "Python, Pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Seaborn",
       "github": "https://github.com/LaxmiPoornakala/Churn-Modelling"
+    },
+    {
+      "title": "Generative AI Model Evaluation",
+      "objective": "Evaluating and comparing multiple large language models across local and cloud platforms using a unified LlamaIndex workflow.",
+      "bulletPoints": [
+        "Integrated Llama 3.2, GPT-4o Mini, DeepSeek-R1, and Llama-3-70B-Instruct through LlamaIndex.",
+        "Configured local and cloud-based LLM inference using Ollama, OpenAI API, and Replicate API.",
+        "Implemented embedding generation using HuggingFace embedding models.",
+        "Executed prompt-based experiments to compare model response quality and behavior.",
+        "Analyzed model performance across different deployment platforms.",
+        "Demonstrated practical GenAI integration and evaluation workflows."
+      ],
+      "tech": "Python, LlamaIndex, Ollama, OpenAI API, Replicate API, HuggingFace",
+      "github": "https://github.com/LaxmiPoornakala/GenAI-With-Models"
     }
   ],
   "experience": [
