@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my portfolio repository! 🚀
+Welcome to my portfolio repository!
 
 This repository showcases my projects, technical skills, and experience in Software Development, Machine Learning, Generative AI, and Cloud Computing.
 
