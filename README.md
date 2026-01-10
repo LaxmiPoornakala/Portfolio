@@ -4,7 +4,7 @@ Welcome to my portfolio repository!
 
 This repository showcases my projects, technical skills, and experience in Software Development, Machine Learning, Generative AI, and Cloud Computing.
 
-🔗 Portfolio Website: https://your-portfolio-link.com
+🔗 Portfolio Website: https://laxmipoornakala.github.io/Portfolio/
 
 ## Highlights
 - AI & Machine Learning Projects
@@ -14,6 +14,3 @@ This repository showcases my projects, technical skills, and experience in Softw
 - Cloud & DevOps Solutions
 
 Feel free to explore the projects and connect with me for collaboration or opportunities.
-
-📧 Email: your.email@example.com  
-💼 LinkedIn: https://linkedin.com/in/your-profile
