@@ -3,7 +3,7 @@
   "brand": "Laxmi Poornakala Mittacola",
   "profileImage": "assets/headshot3.jpg",
   "resume": "assets/resume.pdf",
-  "location": "Chicago, IL",
+  "location": "Chicago, IL (open for re-location)",
   "aboutShort": "CS Master's student focused on AI, Cloud & Full-stack Engineering.",
   "aboutDetail": "I'm a Computer Science student who's always been fascinated by how ideas turn into innovation through code. What started as simple curiosity about how things work has grown into a passion for building smart, reliable, and meaningful technology. I've worked across different domains - from developing enterprise solutions to exploring data and cloud ecosystems - and what drives me most is solving real-world problems with creativity and precision. I love connecting logic with design, data with purpose, and technology with human impact. I believe learning never really stops - every new project, challenge, or line of code is a chance to grow, collaborate, and create something better than before.",
   "aboutList": [
@@ -21,29 +21,60 @@
   },
   "projects": [
     {
-      "title": "Balancing Diets",
-      "objective": "The platform combines interactive visualizations, AI-driven recommendations, and user-friendly dashboards to make nutrition tracking intuitive and actionable.",
+      "title": " AI-Driven SDLC Automation",
+      "objective": "Designing and evaluating a multi-agent AI system to simulate Waterfall and Agile SDLC workflows using structured orchestration and role-based LLM collaboration.",
       "bulletPoints": [
-        "Responsive web app for personalized diet tracking and meal planning.",
-        "AI-powered recommendations and nutrient deficiency detection.",
-        "Interactive dashboards with calorie and macronutrient visualizations.",
-        "Searchable food database for logging meals.",
-        "Chatbot for quick nutrition guidance."
+        "Developed a multi-agent SDLC simulation system assigning AI agents roles such as Product Owner, Scrum Master, Developer, Architect, QA, and Documentation Engineer.",
+        "Automated generation of requirements, user stories, sprint backlogs, architecture design, and test cases using GPT-based LLMs.",
+        "Implemented and compared Linear, Round-Robin, and Graph-based (LangGraph) orchestration strategies for agent coordination.",
+        "Designed prompt-chaining workflows to ensure structured task handoffs between agents.",
+        "Evaluated workflow efficiency, task granularity, and coordination overhead across different orchestration frameworks.",
+        "Demonstrated realistic simulation of Agile sprint planning and Waterfall requirement documentation using autonomous agent collaboration."
       ],
-      "tech": "Python, React, Flutter, AWS, FastAPI, TensorFlow, LangChain",
-      "github": "https://github.com/LaxmiPoornakala/Balancing-Diets"
+      "tech": "Python, AutoGen, LangGraph, LangChain, OpenAI GPT, Prompt Engineering",
+      "github": "https://github.com/LaxmiPoornakala/AI-Driven-SDLC-Automation"
+    },
+    {
+      "title": " Mental Health Signals from Social Media ",
+      "objective": "Analyzing large-scale social media and survey datasets to detect stress patterns using NLP, statistical modeling, and machine learning in R.",
+      "bulletPoints": [
+        "Built a full ML pipeline in R to classify stress vs non-stress posts using the Dreaddit dataset with 80/20 train-test split and SMOTE balancing.",
+        "Compared Logistic Regression (GLM), Random Forest, SVM, XGBoost, and Naive Bayes using Accuracy, F1-score, AUC, ROC curves, and confusion matrices.",
+        "Performed emotion and sentiment analysis on ~550K+ social media posts using NRC lexicon and Syuzhet to compute stress scores and sentiment polarity.",
+        "Engineered behavioral validation models across Students, Bhavik, and SMMH datasets using linear and logistic regression.",
+        "Computed odds ratios and confidence intervals to analyze treatment-seeking behavior predictors.",
+        "Visualized model performance comparisons, emotion radar charts, correlation heatmaps, and stress distribution plots using ggplot2."
+      ],
+      "tech": "R, tidyverse, caret, pROC, syuzhet, tm, xgboost, kernlab, naivebayes, ggplot2",
+      "github": "https://github.com/LaxmiPoornakala/Menta-Health-Signals-From-Social-Media"
     },
     {
       "title": "GitHub Issues Analysis & Semantic Search",
-      "objective": "Demonstrating GitHub API integration, data visualization, Dockerized Elasticsearch embeddings, and semantic search with OpenAI.",
+      "objective": "Building an automated pipeline to ingest, analyze, and semantically search GitHub repository issues using vector embeddings and containerized deployment.",
       "bulletPoints": [
-        "Imported and analyzed GitHub issues using Python & Jupyter Notebooks.",
-        "Visualized issue trends by phase and status.",
-        "Built and published Docker images with Elasticsearch and embeddings.",
-        "Performed semantic search using OpenAI embeddings for topic-specific queries."
+        "Retrieved and processed GitHub issue data programmatically using GitHub REST APIs across multiple open-source repositories.",
+        "Built data ingestion and transformation pipelines to structure semi-structured JSON issue metadata into analytics-ready datasets.",
+        "Generated visualizations to analyze issue trends, creation vs closure patterns, and repository activity metrics.",
+        "Created vector embeddings for issue content and stored them in ElasticSearch indices for semantic retrieval.",
+        "Implemented similarity-based search to retrieve Top-5 most relevant issues per query using embedding scores.",
+        "Containerized the application using Docker to enable reproducible execution and simplified deployment."
       ],
-      "tech": "Python, GitHub API, OpenAI API, Docker, Elasticsearch, Matplotlib",
+      "tech": "Python, GitHub API, ElasticSearch, OpenAI Embeddings, Docker, Pandas, Matplotlib",
       "github": "https://github.com/LaxmiPoornakala/GitHub-Issues-Analysis-and-Semantic-Search-with-Docker-and-Elasticsearch"
+    },
+    {
+      "title": " Churn Prediction",
+      "objective": "Developing an end-to-end machine learning pipeline to predict customer churn using structured banking data and comparative model evaluation.",
+      "bulletPoints": [
+        "Built a complete ML pipeline to predict customer churn using 10,000+ structured banking records with feature preprocessing and encoding.",
+        "Performed exploratory data analysis (EDA) to identify key churn drivers including tenure, balance, geography, and activity status.",
+        "Trained and compared Logistic Regression, Random Forest, SVM, and XGBoost models using cross-validation.",
+        "Handled class imbalance and optimized hyperparameters to improve model generalization performance.",
+        "Evaluated models using Accuracy, Precision, Recall, F1-score, Confusion Matrix, and ROC-AUC.",
+        "Selected XGBoost as the best-performing model for imbalanced churn prediction based on AUC and F1-score metrics."
+      ],
+      "tech": "Python, Pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Seaborn",
+      "github": "https://github.com/LaxmiPoornakala/Churn-Modelling"
     }
   ],
   "experience": [
