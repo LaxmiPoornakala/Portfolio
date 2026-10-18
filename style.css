@@ -57,3 +57,6 @@ section {
   opacity: 1 !important;
   pointer-events: auto !important;
 }
+#about-tagline {
+  white-space: pre-line;
+}

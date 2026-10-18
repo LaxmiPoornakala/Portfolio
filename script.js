@@ -6,19 +6,19 @@ fetch('data.json')
     document.getElementById('brand-name').textContent = data.brand;
     document.getElementById('profile-img').src = data.profileImage;
     document.getElementById('about-text').textContent = data.aboutShort;
-    document.getElementById('about-detail').textContent = data.aboutDetail;
+    // About Me sections
+document.getElementById('about-tagline').textContent = data.aboutTagline;
+document.getElementById('about-tagline').innerText = data.aboutTagline;
+document.getElementById('about-heading').textContent = data.aboutHeading;
+document.getElementById('about-detail').textContent = data.aboutDetail;
+document.getElementById('about-approach-heading').textContent = data.aboutApproachHeading;
+document.getElementById('about-approach').textContent = data.aboutApproach;
+document.getElementById('about-impact-heading').textContent = data.aboutImpactHeading;
+document.getElementById('about-impact').textContent = data.aboutImpact;
     document.getElementById('resume-btn').href = data.resume;
     //document.getElementById('contact-email').href = `mailto:${data.contactEmail}`;
     //document.getElementById('contact-email').textContent = data.contactEmail;
     document.getElementById('location-text').textContent = data.location;
-
-    // About list
-    const aboutList = document.getElementById('about-list');
-    data.aboutList.forEach(item => {
-      const li = document.createElement('li');
-      li.textContent = `• ${item}`;
-      aboutList.appendChild(li);
-    });
 
 // Skills
 const skillsList = document.getElementById('skills-list');
@@ -69,7 +69,7 @@ data.projects.forEach(p => {
       <div class="mt-2 flex flex-wrap">${techBadges}</div>
     </div>
     <div class="flex gap-4 text-sm">
-      <a href="${p.github}" class="text-[var(--accent)] hover:underline">GitHub</a>
+      <a href="${p.github}" class="text-[var(--accent)] hover:underline">GitHub<span>${p.linkIcon || "↗"}</span></a>
     </div>
   `;
 
@@ -103,7 +103,8 @@ data.projects.forEach(p => {
       div.innerHTML = `
         <img src="${c.logo}" class="w-10 h-10 object-contain" />
         <div>
-          <a href="${c.url}" target="_blank" class="font-medium text-[var(--accent)] hover:underline">${c.name}</a>
+          <a href="${c.url}" target="_blank" class="font-medium text-[var(--accent)] hover:underline">${c.name}  <span>${c.linkIcon || "↗"}</span>
+          </a>
           <p class="text-[--text]/75 text-sm">${c.organization}</p>
         </div>
       `;

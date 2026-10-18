@@ -1,23 +1,33 @@
 {
+
   "name": "Kala",
   "brand": "Laxmi Poornakala Mittacola",
   "profileImage": "assets/headshot3.jpg",
   "resume": "assets/resume.pdf",
   "location": "Chicago, IL (open for re-location)",
-  "aboutShort": "CS Master's student focused on AI, Cloud & Full-stack Engineering.",
-  "aboutDetail": "I'm a Computer Science student who's always been fascinated by how ideas turn into innovation through code. What started as simple curiosity about how things work has grown into a passion for building smart, reliable, and meaningful technology. I've worked across different domains - from developing enterprise solutions to exploring data and cloud ecosystems - and what drives me most is solving real-world problems with creativity and precision. I love connecting logic with design, data with purpose, and technology with human impact. I believe learning never really stops - every new project, challenge, or line of code is a chance to grow, collaborate, and create something better than before.",
-  "aboutList": [
-    "Strong fundamentals in Python, Java, and React",
-    "Hands-on with AWS, GCP, Azure, Data Science & RPA tools",
-    "Research & projects in healthcare AI."
+  "aboutShort": "Data Scientist & Analyst | M.S. in Computer Science, Illinois Tech",
+  "aboutTagline": "Curiosity drives the questions.\nData guides the answers.",
+  "aboutHeading": "Behind the Models",
+  "aboutDetail": "I'm an analyst by nature who enjoys exploring complex problems, finding connections, and understanding different perspectives.",
+  "aboutApproachHeading": "How I Think. How I Solve.",
+  "aboutApproach": "I start by asking why. Using statistics and machine learning, I explore patterns, understand trends, and predict possible outcomes.",
+  "aboutImpactHeading": "From Insight to Impact",
+  "aboutImpact": "I turn my findings into practical solutions that support better decisions, from forecasting outcomes to building intelligent applications.",
+  
+  "socials": [
+    {"platform":"LinkedIn","url":"https://www.linkedin.com/in/laxmi-poornakala-mittacola/","icon":"linkedin"},
+    {"platform":"GitHub","url":"https://github.com/LaxmiPoornakala","icon":"github"},
+    {"platform":"Credly","url":"https://www.credly.com/users/laxmi-poornakala-mittacola/badges#credly","icon":"https://cdn.simpleicons.org/credly/EEC5A0"}
   ],
+
   "skills": {
-    "Programming Languages": ["Python", "Java", "C", "R", "JavaScript", "SQL"],
-    "Markup/Stylesheet": ["HTML", "CSS", "XML", "XSL"],
-    "Cloud Platforms": ["Azure", "GCP", "Oracle Cloud", "AWS"],
-    "RPA Software": ["Automation Anywhere", "Blue Prism"],
-    "IDE Tools": ["VS Code", "Eclipse IDE", "Pycharm", "Android Studio", "RStudio"],
-    "Databases": ["MySQL", "MongoDB"]
+    "Programming Languages": ["Python", "Java", "R", "SQL"],
+    "Cloud & DevOps:": ["GCP", "Azure", "Docker", "Git", "GitHub"],
+    "Visualization & Analytics:": [ "Matplotlib", "Seaborn", "Tableau", "Statistical Analysis", "Exploratory Data Analysis (EDA)"],
+    "Machine Learning:": ["Supervised & Unsupervised Learning", "Classification", "Regression", "Clustering", "Feature Engineering", "Model Evaluation", "NLP", "Time-Series Forecasting"],
+    "AI/ML Frameworks:": ["TensorFlow/Keras", "scikit-learn", "XGBoost", "LangChain", "LangGraph", "AutoGen", "Pandas", "NumPy", "StatsModels"],
+    "Backend & Data Systems:": ["Flask", "REST APIs", "Django", "GitHub API", "Elasticsearch", "MySQL", "ETL/Data Pipelines"],
+    "Generative AI & LLMs:": ["LLM", "Prompt Engineering", "Agentic AI", "Multi-Agent Systems", "Semantic/Vector Search", "LLM Evaluation", "OpenAI", "Ollama"]
   },
   "projects": [
     {
@@ -205,11 +215,6 @@
       "duration": "2019 - 2023",
       "logo": "assets/klu.jpeg"
     }
-  ],
-  "socials": [
-    {"platform":"LinkedIn","url":"https://www.linkedin.com/in/laxmi-poornakala-mittacola/","icon":"linkedin"},
-    {"platform":"GitHub","url":"https://github.com/LaxmiPoornakala","icon":"github"},
-    {"platform":"Credly","url":"https://www.credly.com/users/laxmi-poornakala-mittacola/badges#credly","icon":"https://cdn.simpleicons.org/credly/EEC5A0"}
   ],
   "contactEmail": "mlpoornakala@gmail.com"
 }
