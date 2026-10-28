@@ -48,14 +48,14 @@
       "title": " Mental Health Signals from Social Media ",
       "objective": "Analyzing large-scale social media and survey datasets to detect stress patterns using NLP, statistical modeling, and machine learning in R.",
       "bulletPoints": [
-        "Built a full ML pipeline in R to classify stress vs non-stress posts using the Dreaddit dataset with 80/20 train-test split and SMOTE balancing.",
-        "Compared Logistic Regression (GLM), Random Forest, SVM, XGBoost, and Naive Bayes using Accuracy, F1-score, AUC, ROC curves, and confusion matrices.",
-        "Performed emotion and sentiment analysis on ~550K+ social media posts using NRC lexicon and Syuzhet to compute stress scores and sentiment polarity.",
-        "Engineered behavioral validation models across Students, Bhavik, and SMMH datasets using linear and logistic regression.",
-        "Computed odds ratios and confidence intervals to analyze treatment-seeking behavior predictors.",
-        "Visualized model performance comparisons, emotion radar charts, correlation heatmaps, and stress distribution plots using ggplot2."
+        "Built a ML pipeline in R to classify stress vs non-stress posts using the Dreaddit dataset.",
+        "Compared Logistic Regression , Random Forest, SVM, XGBoost, and Naive Bayes using Accuracy, F1-score, and ROC-AUC.",
+        "Performed emotion and sentiment analysis on ~10K+ social media posts using NRC lexicon and Syuzhet to compute stress scores and sentiment polarity.",
+        "Applied linear regression and correlation analysis to explore relationships between social media usage and mental health indicators.",
+        "Used logistic regression, odds ratios, and confidence intervals to analyze factors associated with mental health treatment-seeking.",
+        "Created visualizations of model performance, sentiment distributions, emotional patterns, and behavioral correlations using ggplot2."
       ],
-      "tech": "R, tidyverse, caret, pROC, syuzhet, tm, xgboost, kernlab, naivebayes, ggplot2",
+      "tech": "R, tidyverse, caret, ggplot2, Syuzhet, XGBoost, SVM, Random Forest, Logistic Regression, Naive Bayes, Statistical Analysis",
       "github": "https://github.com/LaxmiPoornakala/Menta-Health-Signals-From-Social-Media"
     },
     {
